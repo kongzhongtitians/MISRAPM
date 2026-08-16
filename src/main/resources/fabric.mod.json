@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "misrapm",
+  "version": "1.0.0",
+  "name": "MCMOD Item Search Reborn Again Pro mini",
+  "description": "MCMOD Item Search Reborn Again Pro mini",
+  "authors": ["kongzhongtitian"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "gd.rf.kongzhongtitian.MISRAPM.client.MISRAPMClient"
+    ],
+    "main": [
+      "gd.rf.kongzhongtitian.MISRAPM.MISRAPM"
+    ]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": ">=1.17"
+  }
+}
